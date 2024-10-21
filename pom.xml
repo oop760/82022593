@@ -11,9 +11,23 @@
 	<groupId>com.example</groupId>
 	<artifactId>template</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>template</name>
+	<name>82022593</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
+	<repositories>
+		<repository>
+			<id>github</id>
+      			<url>https://maven.pkg.github.com/oop760/82022593</url>
+    		</repository>
+  	</repositories>
+	<!-- package publish용 repo 설정 -->
+  	<distributionManagement>
+    		<repository>
+      			<id>github</id>
+      			<name>GitHub oop760 Apache Maven Packages</name>
+      			<url>https://maven.pkg.github.com/oop760/82022593</url>
+      		</repository>
+  	</distributionManagement>
 	<licenses>
 		<license/>
 	</licenses>
