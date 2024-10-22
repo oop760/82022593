@@ -16,4 +16,4 @@ kind: Kustomization
 namespace: "82022593"
 images:
 - name: ceappacr.azurecr.io/82022593
-  newTag: "202410220156"
+  newTag: "202410220220"
