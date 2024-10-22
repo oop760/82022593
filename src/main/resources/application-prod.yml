@@ -3,10 +3,14 @@ spring:
     activate:
       on-profile: prod
   datasource:
+    hikari:
+      maximum-pool-size: 2
+      minimum-idle: 2
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: sa
-    password: sa
+    #url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://ce-aa-psql.postgres.database.azure.com:5432/postgres
+    username: ktds
+    password: Ktds!1234
   jpa:
     show-sql: true
     hibernate:
